@@ -105,7 +105,7 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     :root {
-        font-size: 32.5%;
+        font-size: 45.5%;
     }
 
     body {
@@ -115,5 +115,16 @@
     .strock:nth-child(1),
     .strock:nth-child(3) {
         border: none;
+    }
+    .h1-wrapper{
+        font-size: 6.5rem;
+        line-height: 115%;
+        padding-bottom: 2rem;
+    }
+    .banner-p-wrapper{
+        padding-bottom: 3rem;
+    }
+    .banner-btn-style{
+        padding-bottom: 2rem;
     }
 }
