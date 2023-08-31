@@ -1,0 +1,119 @@
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    :root {
+        font-size: 52.5%;
+    }
+
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    :root {
+        font-size: 42.5%;
+    }
+
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    :root {
+        font-size: 42.5%;
+    }
+
+    body {
+        font-size: 1.5rem;
+    }
+
+    .strock:nth-child(2) {
+        border-right: none;
+    }
+    
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    :root {
+        font-size: 45.5%;
+    }
+
+    body {
+        font-size: 1.5rem;
+    }
+
+    .whyUs {
+        flex-flow: row wrap-reverse;
+
+    }
+
+    .whyUs__contentRight {
+        width: auto !important;
+        text-align: center;
+
+    }
+
+    .whyUs__contentRight__btn {
+        display: none !important;
+    }
+
+    .whyUs__contentLeft {
+        align-items: center;
+    }
+
+    .whyUs__rbtn {
+        border-radius: 100px;
+        margin-top: 6rem;
+        background: #1BBF00;
+        display: inline-flex!important;
+        padding: 2rem 4rem;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 250ms;
+        transition-timing-function: ease-in-out;
+    }
+    .whyUs__rbtn:hover{
+        transform: scale(1.1);
+    }
+    .whyUs__rbtn--active{
+        color: #F9F9F9;
+        font-family: Open Sans;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.4rem;
+        text-decoration: none;
+        text-transform: capitalize;
+
+    }
+    .whyUs__rbtn--active:hover{
+        color: green;
+    }
+    .whatWeDo{
+        text-align: center;
+        
+    }
+    .whatWeDo__card--p{
+        width: auto!important;
+    }
+
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    :root {
+        font-size: 32.5%;
+    }
+
+    body {
+        font-size: 1.5rem;
+    }
+
+    .strock:nth-child(1),
+    .strock:nth-child(3) {
+        border: none;
+    }
+}
